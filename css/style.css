@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+    background-color: #F5F3FF;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 15px 0px;
+}
+
+.navbar .left-side {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.navbar .left-side img {
+    background-color: #8E51FF;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.navbar .links {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.navbar .right-side {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.navbar .right-side ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+}
+
+.navbar .right-side ul a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    color: #4B465E;
+}
+
+.hero .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 80px 0px;
+
+}
+
+.hero .left-side {
+    position: relative;
+}
+
+.hero .left-side span {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    background-color: #8E51FF;
+    padding: 5px 15px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #f4f1f1;
+}
+
+.hero .container .right-side {
+    margin-top: 150px;
+    width: 50%;
+}
+
+.hero .container .left-side img {
+    border: 1px solid #000000;
+    padding: 15px;
+    border-radius: 25px;
+    width: 500px;
+
+
+}
+
+.hero .container .right-side .paragraph {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 25px;
+
+
+}
+
+.hero .container .right-side .paragraph p {
+    background-color: #A684FF;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.hero .container .right-side .hero-title h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.right-side .description p {
+    font-size: 22px;
+    font-weight: 350;
+    color: #000000;
+    padding: 20px 0px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+.right-side .hero-price {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 20px 0px;
+}
+
+.right-side .hero-price h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.right-side .hero-price .main-price {
+    text-decoration: line-through;
+    font-size: 30px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.right-side .hero-price .save-price {
+    background-color: #FFE2E2;
+    padding: 10px;
+    border-radius: 30px;
+    color: red;
+}
+
+.right-side .hero-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    width: 100%;
+
+
+}
+
+.right-side .hero-button .btn-cart {
+    width: 100%;
+    padding: 25px;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #8E51FF;
+}
+
+.right-side .hero-button .btn-wishlist {
+    width: 100%;
+    padding: 25px;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.hero-title span {
+    color: #8E51FF;
+}
