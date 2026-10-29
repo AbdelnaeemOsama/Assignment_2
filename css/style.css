@@ -96,13 +96,13 @@ body {
 
 .hero .left-side span {
     position: absolute;
-    top: 15px;
-    left: 20px;
+    top: 25px;
+    left: 25px;
     background-color: #8E51FF;
     padding: 5px 15px;
     border-radius: 50px;
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 500;
     color: #f4f1f1;
 }
 
